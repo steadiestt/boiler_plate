@@ -20,7 +20,7 @@ mongoose.connect(config.mongoURI, {
   .catch(err => console.log(err))
 
 app.get('/', (req, res) => {
-  res.send('bye :(')
+  res.send('Hi :)')
 })
 
 app.post('/register', (req, res) => {
